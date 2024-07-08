@@ -1,0 +1,34 @@
+body{
+background-color: azure;
+}
+#heading{
+    background-color: bisque;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+}
+.nevigation {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nevigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nevigation a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .nevigation a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
